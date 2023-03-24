@@ -16,6 +16,6 @@ power2 = Power.create(name: "flight", description: "gives the wielder the abilit
 power3 = Power.create(name: "teleportation", description: "allows the wielder to teleport to any location")
 
 
-HeroPower.create(hero: hero1, power: power1, strength: "Strong")
-HeroPower.create(hero: hero1, power: power2, strength: "Average")
-HeroPower.create(hero: hero2, power: power3, strength: "Weak")
+heropower1 = HeroPower.create(hero: hero1, power: power1, strength: "Strong")
+heropower2 = HeroPower.create(hero: hero1, power: power2, strength: "Average")
+heropower3 = HeroPower.create(hero: hero2, power: power3, strength: "Weak")
