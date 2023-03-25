@@ -1,9 +1,8 @@
 class HeroPowerSerializer < ActiveModel::Serializer
+  attributes :id, :name, :super_name
   has_many :powers, serializer: PowerSerializer
 
   def powers
-    object.powers.map do |power|
-      PowerSerializer.new(power).attributes
-    end
+    object.powers
   end
 end
