@@ -23,11 +23,11 @@ Change directory to the repo folder:
 
 Before installing Rails, you need to have the following software installed on your computer:
 
-  `sudo apt-get install ruby`
+    `sudo apt-get install ruby`
 
 Bundler: Bundler is a package manager for Ruby, which makes it easy to manage dependencies. You can install it by running the following command:
 
-   `gem install bundler`
+    `gem install bundler`
 
 
 Installing Rails
@@ -37,11 +37,11 @@ Open a terminal or command prompt on your computer.
 
 Install Rails by running the following command:
 
-`gem install rails`
+    `gem install rails`
 
 Verify that Rails is installed by running the following command:
 
-`rails --version`
+    `rails --version`
 
 This should output the version number of Rails that you just installed.
 
