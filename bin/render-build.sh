@@ -1,10 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# exit on error
+set -o errexit
 
-# Install dependencies
-bundle install --deployment --without development test
+bundle install
 
-# Run database migrations
-rails db:migrate RAILS_ENV=production
-
-# Precompile assets
-rails assets:precompile RAILS_ENV=production
+# migrate
+bundle exec rake db:migrate db:seed  
