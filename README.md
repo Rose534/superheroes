@@ -30,7 +30,7 @@ Bundler: Bundler is a package manager for Ruby, which makes it easy to manage de
     gem install bundler
 
 
-Installing Rails
+Install Rails
 Once you have Ruby and Bundler installed, you can install Rails by following these steps:
 
 Open a terminal or command prompt on your computer.
