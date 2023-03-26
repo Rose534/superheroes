@@ -37,6 +37,18 @@ This is what the associations table look like for the code
 
 ![Screenshot from 2023-03-26 17-14-50](https://user-images.githubusercontent.com/105820877/227774384-140a735e-4d63-4e5d-8c29-72126f823b04.png)
 
+
+# API documentation
+This application exposes an API for retrieving superhero data. The API has the following endpoints:
+
+GET /heroes: Returns a list of all superheroes in the database
+GET /heroes/:id: Returns information about a specific superhero
+GET /powers: Returns a list of all the powers
+GET /powers/:id: Returns information about a specific power
+PATCH /powers/:id:Changes the description of a power
+POST /hero_powers: Adds a power to a superhero
+
+
 This is what the various endpoints will output when you run it
 
 `Get/heroes`
