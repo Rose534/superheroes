@@ -42,10 +42,15 @@ This is what the associations table look like for the code
 This application exposes an API for retrieving superhero data. The API has the following endpoints:
 
 GET /heroes: Returns a list of all superheroes in the database
+
 GET /heroes/:id: Returns information about a specific superhero
+
 GET /powers: Returns a list of all the powers
+
 GET /powers/:id: Returns information about a specific power
+
 PATCH /powers/:id:Changes the description of a power
+
 POST /hero_powers: Adds a power to a superhero
 
 
