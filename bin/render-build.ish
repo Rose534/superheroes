@@ -1,10 +1,11 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# exit on error
+set -o errexit
 
-# Install dependencies
-bundle install 
+echo "Installing dependencies"
+bundle install
 
-# Run database migrations
-rails db:migrate RAILS_ENV=production
+echo "Running database migrations"
+bundle exec rails db:migrate db:seed
 
-# Precompile assets
-rails assets:precompile RAILS_ENV=production
+echo "Build complete!"
