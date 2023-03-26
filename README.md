@@ -21,7 +21,29 @@ Change directory to the repo folder:
 
     cd superheroes
 
-Use code . to open it in visual studio
+Before installing Rails, you need to have the following software installed on your computer:
+
+  `sudo apt-get install ruby`
+
+Bundler: Bundler is a package manager for Ruby, which makes it easy to manage dependencies. You can install it by running the following command:
+
+   `gem install bundler`
+
+
+Installing Rails
+Once you have Ruby and Bundler installed, you can install Rails by following these steps:
+
+Open a terminal or command prompt on your computer.
+
+Install Rails by running the following command:
+
+`gem install rails`
+
+Verify that Rails is installed by running the following command:
+
+`rails --version`
+
+This should output the version number of Rails that you just installed.
 
 To install all the gems, run
 
@@ -29,9 +51,11 @@ To install all the gems, run
 
 To run the rails server run, `rails s or rails server`
 
-This backend is already deployed, use this link to access it via the server 
+Once you run the rails server, enter this in your respective browser to see the json `http://localhost:3000/heroes`
 
-Once you run the rails server, enter this in your respective browser to see the json `http://localhost:3000`
+Use code . to open it in visual studio
+
+This backend is already deployed, use this link to access it via the server 
 
 This is what the associations table look like for the code
 
