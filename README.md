@@ -55,7 +55,7 @@ Once you run the rails server, enter this in your respective browser to see the 
 
 Use code . to open it in visual studio
 
-This backend is already deployed, use this link to access it via the server 
+This backend is already deployed, use this link to access it via the server : `https://super-hero-njvy.onrender.com`
 
 This is what the associations table look like for the code
 
